@@ -17,6 +17,8 @@ snapShotHtml = "2021-02-05_SnapShotPrediction.html"
 #Bootstrap themes
 app = dash.Dash(__name__, external_stylesheets = [dbc.themes.BOOTSTRAP])
 
+server = app.server
+
 # the style arguments for the sidebar. We use position:fixed and a fixed width
 SIDEBAR_STYLE = {
     "position": "fixed",
